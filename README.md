@@ -60,45 +60,48 @@ CREATE TABLE Jugadores (
 
 Clona el repositorio:
 
+```
 git clone https://github.com/tu_usuario/Sistema_Gestion_Equipos_Futbol.git
 cd Sistema_Gestion_Equipos_Futbol
+```
 
 Configura la base de datos en MySQL e importa las tablas anteriores.
 
 Compila y ejecuta la aplicación:
 
+```
 mvn clean package
 java -jar target/Sistema_Gestion_Equipos_Futbol.jar
+```
 
-Uso de la Aplicación
+### Uso de la Aplicación
 
-Filtra jugadores por equipo utilizando un ComboBox.
+1. Filtra jugadores por equipo utilizando un ComboBox.
 
-Visualiza la información detallada de cada jugador.
+2. Visualiza la información detallada de cada jugador.
 
-Genera informes en PDF y Excel.
+3. Genera informes en PDF y Excel.
 
-Explora gráficos interactivos con Power BI.
+4. Explora gráficos interactivos con Power BI.
 
-Accesos rápidos de teclado para una mejor usabilidad.
+5. Accesos rápidos de teclado para una mejor usabilidad.
 
-Contribuciones
+### Contribuciones
 
 Las contribuciones son bienvenidas. Para colaborar:
 
-Haz un fork del repositorio.
+1. Haz un fork del repositorio.
 
-Crea una nueva rama (git checkout -b feature-nueva).
+2. Crea una nueva rama (git checkout -b feature-nueva).
 
-Realiza tus cambios y haz commit (git commit -m 'Añadida nueva funcionalidad').
+3. Realiza tus cambios y haz commit (git commit -m 'Añadida nueva funcionalidad').
 
-Envía un Pull Request.
+4. Envía un Pull Request.
 
-Licencia
+5. Licencia
+
 
 Este proyecto está bajo la licencia MIT. Puedes ver más detalles en el archivo LICENSE.
-
-Contacto
 
 Si tienes dudas o sugerencias, contáctame en [tu email] o crea un issue en el repositorio.
 
