@@ -1,40 +1,41 @@
 # Gestion_de_Equipos_Y_Jugadores
-Sistema de Gestión de Equipos de Fútbol
+## Sistema de Gestión de Equipos de Fútbol
 
-Descripción
+### Descripción
 
 Este proyecto es una aplicación de escritorio en Java utilizando Swing y JDBC para gestionar equipos de fútbol. Implementa las operaciones CRUD para administrar información sobre los equipos y jugadores.
 
-Características
+### Características
 
-CRUD de equipos y jugadores ⚽
+- CRUD de equipos y jugadores ⚽
 
-Visualización de gráficos de barras con la cantidad de jugadores por equipo 📊
+- Visualización de gráficos de barras con la cantidad de jugadores por equipo 📊
 
-Integración con Power BI para gráficos interactivos 📈
+- Integración con Power BI para gráficos interactivos 📈
 
-Exportación de datos a PDF y Excel 📄📊
+- Exportación de datos a PDF y Excel 📄📊
 
-Interfaz gráfica intuitiva y accesible 🎨
+- Interfaz gráfica intuitiva y accesible 🎨
 
-Filtros avanzados en tablas por ciudad o posición 🔍
+- Filtros avanzados en tablas por ciudad o posición 🔍
 
-Imágenes de escudos de equipos y fotos de jugadores 🏆📷
+- Imágenes de escudos de equipos y fotos de jugadores 🏆📷
 
-Tecnologías Utilizadas
+### Tecnologías Utilizadas
 
-Lenguaje: Java (Swing, JDBC)
+- Lenguaje: Java (Swing, JDBC)
 
-Base de Datos: MySQL
+- Base de Datos: MySQL
 
-Bibliotecas: JasperReports (PDF), Apache POI (Excel)
+- Bibliotecas: JasperReports (PDF), Apache POI (Excel)
 
-Gráficos: JFreeChart / Power BI
+- Gráficos: JFreeChart / Power BI
 
-ORM: JDBC puro
+- ORM: JDBC puro
 
-Estructura de la Base de Datos
+### Estructura de la Base de Datos
 
+```
 Tabla Equipos
 
 CREATE TABLE Equipos (
@@ -53,8 +54,9 @@ CREATE TABLE Jugadores (
     equipo_id INT,
     FOREIGN KEY (equipo_id) REFERENCES Equipos(id) ON DELETE CASCADE
 );
+```
 
-Instalación
+### Instalación
 
 Clona el repositorio:
 
